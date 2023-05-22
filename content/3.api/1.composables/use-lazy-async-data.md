@@ -8,7 +8,7 @@ description: This wrapper around useAsyncData triggers navigation immediately.
 
 ## Description
 
-By default, [useAsyncData](/docs/api/composables/use-async-data) blocks navigation until its async handler is resolved.
+By default, [useAsyncData](/api/composables/use-async-data) blocks navigation until its async handler is resolved.
 
 > `useLazyAsyncData` has the same signature as `useAsyncData`.
 

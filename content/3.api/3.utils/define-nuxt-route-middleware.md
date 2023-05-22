@@ -6,7 +6,7 @@ title: "defineNuxtRouteMiddleware"
 
 Create named route middleware using `defineNuxtRouteMiddleware` helper function.
 
-Route middleware are stored in the `middleware/` directory of your Nuxt application (unless [set otherwise](/docs/api/configuration/nuxt-config#middleware)).
+Route middleware are stored in the `middleware/` directory of your Nuxt application (unless [set otherwise](/api/configuration/nuxt-config#middleware)).
 
 ## Type
 
@@ -60,4 +60,4 @@ export default defineNuxtRouteMiddleware((to, from) => {
 })
 ```
 
-Both [navigateTo](/docs/api/utils/navigate-to) and [abortNavigation](/docs/api/utils/abort-navigation) are globally available helper functions that you can use inside `defineNuxtRouteMiddleware`.
+Both [navigateTo](/api/utils/navigate-to) and [abortNavigation](/api/utils/abort-navigation) are globally available helper functions that you can use inside `defineNuxtRouteMiddleware`.

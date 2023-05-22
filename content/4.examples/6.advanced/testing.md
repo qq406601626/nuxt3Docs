@@ -7,7 +7,7 @@ toc: false
 This example shows how to test your Nuxt application.
 
 ::alert{type=info icon=👉}
-Learn more about [testing](/docs/guide/going-further/testing).
+Learn more about [testing](/guide/going-further/testing).
 ::
 
 ::ReadMore{link="/docs/guide/going-further/testing"}

@@ -34,5 +34,5 @@ const { data } = await useFetch('/api/confidential', {
 ```
 
 ::alert{icon=👉}
-[Another example](/docs/getting-started/data-fetching#example-pass-client-headers-to-the-api) shows how we can pass cookies from the initial request to another API route.
+[Another example](/getting-started/data-fetching#example-pass-client-headers-to-the-api) shows how we can pass cookies from the initial request to another API route.
 ::

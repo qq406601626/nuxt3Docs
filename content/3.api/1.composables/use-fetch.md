@@ -1,6 +1,6 @@
 # `useFetch`
 
-This composable provides a convenient wrapper around [`useAsyncData`](/docs/api/composables/use-async-data) and [`$fetch`](/docs/api/utils/dollarfetch).
+This composable provides a convenient wrapper around [`useAsyncData`](/api/composables/use-async-data) and [`$fetch`](/api/utils/dollarfetch).
 
 It automatically generates a key based on URL and fetch options, provides type hints for request url based on server routes, and infers API response type.
 
@@ -41,7 +41,7 @@ type AsyncData<DataT> = {
 ## Params
 
 * **URL**: The URL to fetch.
-* **Options (extends [unjs/ofetch](https://github.com/unjs/ofetch) options & [AsyncDataOptions](/docs/api/composables/use-async-data#params))**:
+* **Options (extends [unjs/ofetch](https://github.com/unjs/ofetch) options & [AsyncDataOptions](/api/composables/use-async-data#params))**:
   * `method`: Request method.
   * `query`: Adds query search params to URL using [ufo](https://github.com/unjs/ufo)
   * `params`: Alias for `query`

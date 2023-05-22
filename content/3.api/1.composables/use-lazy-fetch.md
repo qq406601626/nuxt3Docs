@@ -8,7 +8,7 @@ description: This wrapper around useFetch triggers navigation immediately.
 
 ## Description
 
-By default, [useFetch](/docs/api/composables/use-fetch) blocks navigation until its async handler is resolved.
+By default, [useFetch](/api/composables/use-fetch) blocks navigation until its async handler is resolved.
 
 > `useLazyFetch` has the same signature as `useFetch`.
 

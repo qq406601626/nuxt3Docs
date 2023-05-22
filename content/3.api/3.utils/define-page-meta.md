@@ -4,7 +4,7 @@ title: "definePageMeta"
 
 # `definePageMeta`
 
-`definePageMeta` is a compiler macro that you can use to set metadata for your **page** components located in the `pages/` directory (unless [set otherwise](/docs/api/configuration/nuxt-config#pages)). This way you can set custom metadata for each static or dynamic route of your Nuxt application.
+`definePageMeta` is a compiler macro that you can use to set metadata for your **page** components located in the `pages/` directory (unless [set otherwise](/api/configuration/nuxt-config#pages)). This way you can set custom metadata for each static or dynamic route of your Nuxt application.
 
 ```vue [pages/some-page.vue]
 <script setup>
@@ -78,7 +78,7 @@ interface PageMeta {
 
   - **Type**: `MiddlewareKey` | [`NavigationGuard`](https://router.vuejs.org/api/interfaces/NavigationGuard.html#navigationguard) | `Array<MiddlewareKey | NavigationGuard>`
 
-    Define anonymous or named middleware directly within `definePageMeta`. Learn more about [route middleware](/docs/guide/directory-structure/middleware).
+    Define anonymous or named middleware directly within `definePageMeta`. Learn more about [route middleware](/guide/directory-structure/middleware).
 
   **`pageTransition`**
 
@@ -102,7 +102,7 @@ interface PageMeta {
 
   - **Type**: `any`
 
-    Apart from the above properties, you can also set **custom** metadata. You may wish to do so in a type-safe way by [augmenting the type of the `meta` object](/docs/guide/directory-structure/pages/#typing-custom-metadata).
+    Apart from the above properties, you can also set **custom** metadata. You may wish to do so in a type-safe way by [augmenting the type of the `meta` object](/guide/directory-structure/pages/#typing-custom-metadata).
 
 ## Examples
 

@@ -1,6 +1,6 @@
 # `updateAppConfig`
 
-Updates [app config](/docs/guide/directory-structure/app-config) using deep assignment. Existing (nested) properties will be preserved.
+Updates [app config](/guide/directory-structure/app-config) using deep assignment. Existing (nested) properties will be preserved.
 
 **Usage:**
 
