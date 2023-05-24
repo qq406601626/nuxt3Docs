@@ -1,5 +1,0 @@
-// ROLLUP_NO_REPLACE 
- const wasm = "{\"parsed\":{\"_path\":\"/examples/experimental/wasm\",\"_dir\":\"experimental\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"_empty\":false,\"title\":\"WASM\",\"description\":\"This example demonstrates the server-side support of WebAssembly in Nuxt 3.\",\"toc\":false,\"body\":{\"type\":\"root\",\"children\":[{\"type\":\"element\",\"tag\":\"h1\",\"props\":{\"id\":\"wasm\"},\"children\":[{\"type\":\"text\",\"value\":\"WASM\"}]},{\"type\":\"element\",\"tag\":\"p\",\"props\":{},\"children\":[{\"type\":\"text\",\"value\":\"This example demonstrates the server-side support of WebAssembly in Nuxt 3.\"}]},{\"type\":\"element\",\"tag\":\"sandbox\",\"props\":{\"branch\":\"main\",\"dir\":\"examples/experimental/wasm\",\"file\":\"app.vue\",\"repo\":\"nuxt/nuxt\"},\"children\":[]}]},\"_type\":\"markdown\",\"_id\":\"content:4.examples:7.experimental:wasm.md\",\"_source\":\"content\",\"_file\":\"4.examples/7.experimental/wasm.md\",\"_extension\":\"md\"},\"hash\":\"aa7ZOZeHCc\"}";
-
-export { wasm as default };
-//# sourceMappingURL=wasm.mjs.map
